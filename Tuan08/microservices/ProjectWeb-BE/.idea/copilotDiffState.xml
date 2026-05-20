@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/order-service/src/main/resources/application.properties">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/order-service/src/main/resources/application.properties" />
+              <option name="originalContent" value="spring.application.name=order-service&#10;server.port=8083&#10;eureka.instance.prefer-ip-address=true&#10;&#10;#Mongo&#10;spring.data.mongodb.uri=${SPRING_DATA_MONGODB_URI:mongodb://localhost:27017/database}&#10;&#10;&#10;# Kafka Producer Configuration&#10;spring.kafka.bootstrap-servers=${KAFKA_BOOTSTRAP_SERVERS:localhost:9092,localhost:9094,localhost:9096}&#10;&#10;&#10;&#10;#Eureka&#10;eureka.client.service-url.defaultZone=${EUREKA_SERVER_URL:http://localhost:8761/eureka/}&#10;eureka.client.register-with-eureka=true&#10;eureka.client.fetch-registry=true&#10;spring.security.user.name=eureka&#10;spring.security.user.password=password&#10;&#10;# ======= Actuator + Prometheus =======&#10;management.endpoints.web.exposure.include=*&#10;management.endpoint.health.show-details=always&#10;management.prometheus.metrics.export.enabled=true&#10;&#10;# ======= Tracing (Zipkin + Spring Cloud Sleuth) =======&#10;management.tracing.sampling.probability=1.0&#10;management.zipkin.tracing.export.enabled=true&#10;management.zipkin.tracing.endpoint=${ZIPKIN_URL:http://localhost:9411/api/v2/spans}&#10;&#10;&#10;&#10;&#10;" />
+              <option name="updatedContent" value="spring.application.name=order-service&#10;server.port=8083&#10;eureka.instance.prefer-ip-address=true&#10;&#10;#Mongo&#10;spring.data.mongodb.uri=${SPRING_DATA_MONGODB_URI:mongodb://mongo:27017/database}&#10;&#10;&#10;# Kafka Producer Configuration&#10;spring.kafka.bootstrap-servers=${KAFKA_BOOTSTRAP_SERVERS:kafka:9092}&#10;&#10;&#10;&#10;#Eureka&#10;eureka.client.service-url.defaultZone=${EUREKA_SERVER_URL:http://localhost:8761/eureka/}&#10;eureka.client.register-with-eureka=true&#10;eureka.client.fetch-registry=true&#10;spring.security.user.name=eureka&#10;spring.security.user.password=password&#10;&#10;# ======= Actuator + Prometheus =======&#10;management.endpoints.web.exposure.include=*&#10;management.endpoint.health.show-details=always&#10;management.prometheus.metrics.export.enabled=true&#10;&#10;# ======= Tracing (Zipkin + Spring Cloud Sleuth) =======&#10;management.tracing.sampling.probability=1.0&#10;management.zipkin.tracing.export.enabled=true&#10;management.zipkin.tracing.endpoint=${ZIPKIN_URL:http://localhost:9411/api/v2/spans}&#10;&#10;&#10;&#10;&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
